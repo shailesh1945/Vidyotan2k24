@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="#001233">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <!-- First Image -->
+        <ImageView
+            android:id="@+id/firstImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vidyotan_letters"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Second Image -->
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ipl_auction"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name: IPL Auction"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The IPL auction is based on the real auction of the IPL which is conducted every year before the IPL The basic idea of the auction is to buy the players by bargaining between the team owners in some amount of money."
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/entryFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entry Fees:\n300/- per team and each team should not include more than 3 members"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/prizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;2500 \n &#8226;Runner Up: &#8377;1500"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About the Event\n The event will be held in two stages\n • Quiz Round\n• Auction Round"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:id="@+id/quizr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iplq"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/auctior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iplar"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='@string/iplrules'
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/wr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/iplwr"
+            android:textSize="23sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <!-- Additional content goes here if needed -->
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordiators"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Information -->
+        <TextView
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Roshan Deshmukh : +917517552455\n 2) Chawak Bhonde : +917420966629"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

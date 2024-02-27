@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="#001233">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <!-- First Image -->
+        <ImageView
+            android:id="@+id/firstImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vidyotan_letters"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Second Image -->
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/robotics"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name: Robotics"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date and Time: 8th February 2024"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/informationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='General Rules:\n\n 1) Bring your college ID Cards and Receipt on event day\n 2) All the participants will be awarded with "Participation Certificates ".'
+            android:layout_marginTop="8dp"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordinators: \nDhiraj Mishra : 8766870075\n Preet Vidhate : 7744966849\n Sakashi Milmile : 8999852983\n Devashish Pingale : 9049313638\n Pranav Mahore : 9607847909"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rrinfo"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rspeci"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rrules"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:id="@+id/prizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;7000 \n &#8226;Runner Up: &#8377;5000"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rlj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rlj"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rljrr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rljr"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rspecification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rljspeci"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/prizesrs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;3000 \n &#8226;Runner Up: &#8377;2000"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rsoccor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design a manually controlled wired ROBOT that can play soccer on an arena specially designed for robotics soccer match."
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rsp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rrspeci2"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/rra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rrregu"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/prizerr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;5000 \n &#8226;Runner Up: &#8377;3000"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

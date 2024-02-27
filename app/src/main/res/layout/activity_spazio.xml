@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="#001233">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <!-- First Image -->
+        <ImageView
+            android:id="@+id/firstImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vidyotan_letters"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Second Image -->
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spazio"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name: Spazio"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Information -->
+
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date and Time: 8th February 2024"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/entryFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entry Fees:\n	200/- per team (Max 3 participants)"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/prizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;2000 \n &#8226;Runner Up: &#8377;1000\n "
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/domain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codes for different Domains:\n i) Computer Science Engineering &amp; Information Technology (CSE &amp; IT)\n ii) Electronics and Telecommunication Engineering (EXTC)\n iii) Civil Engineering (CE)\n iv) Mechanical Engineering (ME)\n v) MBA"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordinators :\n 1) Manish Dhaye : 7757063698\n 2) Netal Khandelwal :8208285301\n 3) Shyam Thakre : 8862051957\n 4) Sarthak Watane : 8799923181"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Additional content goes here if needed -->
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rules &amp; Rugulations"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Information -->
+        <TextView
+            android:id="@+id/informationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@string/spr'
+            android:layout_marginTop="8dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/qr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QR For IEEE Format And Sample PPT"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+        <ImageView
+            android:id="@+id/srImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qr_spazio"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="5sp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

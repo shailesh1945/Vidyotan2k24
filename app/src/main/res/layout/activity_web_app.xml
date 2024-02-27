@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15sp"
+    android:background="#001233">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15sp">
+
+        <!-- First Image -->
+        <ImageView
+            android:id="@+id/firstImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vidyotan_letters"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Second Image -->
+        <ImageView
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/webapp_design"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/headingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Event Name: Web/App Design"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CODE TO INSPIRE\n\nDate and Time: 8th February 2024"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/entryFees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entry Fees:\n300/- per team"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/prizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prizes:\n &#8226; Winner: &#8377;3000 \n &#8226;1st Runner Up: &#8377;2500 \n 2nd Runner Up: &#8377;2000\n 3rd Runner Up: &#8377;1500"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/choose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose from a tech palette that includes:\n• HEALTH CARE\n• AGRICULTURE\n• CYBER SECURITY\n• ENVIRONMENT\n• IOT\n• INFRASTRUCTURE &amp; AUTOMATION\n• WASTE MANAGEMENT\n• RENEWABLE/SUSTAINABLE ENERGY\n• FOREST/WILDLIFE CONSERVATION\n• MISCELLANEOUS (other)\n You have 3 hours ignite innovation, sculpt brilliance, and make your mark in the digital universe!"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+        <TextView
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coordinators :\n Tushar Pawade - 9834506642\n Krushna Bajaj - 9405990799\n Ishwari Wankhade - 8530191794\n Siya Pande - 8805683766"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Additional content goes here if needed -->
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rules &amp; Rugulations"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Information -->
+        <TextView
+            android:id="@+id/informationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@string/war'
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"/>
+
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:background="@drawable/custom_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
