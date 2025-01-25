@@ -4,7 +4,7 @@
 Vidyotan is an Android app which serves as a platform for students and participants to stay updated with the events, workshops, competitions, and other activities happening during the college's tech fest.
 
 ## Authors
-- [@Shailesh Khandate](https://www.https:/github.com/shailesh1945)
+- [@Shailesh Khandate](https://github.com/shailesh1945)
 
 ## Features
 
